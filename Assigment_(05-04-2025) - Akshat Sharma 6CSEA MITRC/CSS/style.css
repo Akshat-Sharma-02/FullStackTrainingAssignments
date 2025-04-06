@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.cardSection {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.cardHead {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  letter-spacing: 1.5px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  box-shadow: 0 0 5px 2px rgb(62, 62, 62);
+  height: 350px;
+  width: 275px;
+  border-radius: 8px;
+}
+
+.card-1-image,
+.card-2-image,
+.card-3-image,
+.card-4-image {
+  width: 100%;
+}
+.card {
+  overflow: hidden;
+}
+
+.card-desc {
+  letter-spacing: 0.8px;
+  margin-top: 10px;
+}
+
+.card:hover > img {
+  scale: 1.25;
+  transition: all ease-in-out 500ms;
+}
+
+.card:hover > .btn {
+  visibility: visible;
+  transition: all ease-in-out 500ms;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+  position: relative;
+}
+
+.btn {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  right: 0;
+  border-radius: 100%;
+  margin-right: 10px;
+  margin-top: 10px;
+  border: 0px;
+}
+
+.like-btn {
+  visibility: hidden;
+}
+
+.addToCart {
+  width: 250px;
+  height: 40px;
+  border-radius: 30px;
+  border: 0;
+  box-shadow: 0 0 4px 1px rgb(118, 118, 118);
+  background-color: #feba17;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 1.5px;
+  margin-top: 15px;
+}
+
+.head-1 {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.card-head-link {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.card-head-link:hover {
+  color: purple;
+  font-weight: 300;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 60px;
+}
+
+.nav > a > button {
+  margin-top: 30px;
+  background-color: #161179;
+  margin-right: 15px;
+  height: 60px;
+  border: 0;
+  color: white !important;
+  width: 60px;
+  border-radius: 100%;
+  box-shadow: 0 0 4px 1px rgb(66, 66, 66);
+}
+
+.footer {
+  margin-top: 15px;
+  padding-top: 15px;
+  background-color: rgba(238, 238, 238, 0.488);
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-subDiv:first-child {
+  width: 425px;
+}
+
+.footer-subDiv {
+  width: 300px;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer ul a {
+  text-decoration: none;
+  font-size: 13px;
+  margin-left: 5px;
+  font-weight: 700;
+  color: black;
+}
+
+.socialMedia ul {
+  display: flex;
+  gap: 10px;
+  text-align: center;
+}
+
+.footer .head {
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.contact .desc {
+  color: rgb(128, 128, 128);
+}
+
+.contact .email,.phone {
+  color: black;
+}
+
+.aboutWeb .desc {
+  color: rgb(128, 128, 128);
+}
+
+.uil {
+  margin-top: 5px;
+  font-size: 25px;
+  color: rgb(128, 128, 128);
+}
+
+.nav > .webName {
+  font-size: 30px;
+  letter-spacing: 1.5px;
+  margin-left: 15px;
+}
+
+.email {
+  text-decoration: none;
+}
+
+.phone {
+  text-decoration: none;
+}
